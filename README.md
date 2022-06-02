@@ -23,9 +23,12 @@ python3 main.py
 
 ```python
 
-Provide*
-"Github user name: "
+exp:
+
+"Github user name: "  
+hyle-team
 "Github repo name: "
+zano_ui
 
     
 Press 'A' for Avarage time between pull requests 
