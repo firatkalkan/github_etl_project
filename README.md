@@ -15,6 +15,12 @@ pip install requests
 
 ## Usage
 
+```bash
+python3 main.py
+or 
+python main.py
+```
+
 ```python
 
 Press 'A' for Avarage time between pull requests 
