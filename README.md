@@ -9,6 +9,8 @@ Github REST API call for regarding repo name
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
+python3 -m venv
+
 pip install requests
 
 ```
@@ -17,12 +19,15 @@ pip install requests
 
 ```bash
 python3 main.py
-or 
-python main.py
 ```
 
 ```python
 
+Provide*
+"Github user name: "
+"Github repo name: "
+
+    
 Press 'A' for Avarage time between pull requests 
 Press 'T' for total number of events grouped by the event type
     
