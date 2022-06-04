@@ -59,7 +59,7 @@ class ApiClass:
 
         try:
             apiData = self._getApiData()
-            if offset:
+            if offset and offset.isdigit():
                 apiData = list(filter(lambda response: ((datetime.strptime(response['created_at'], "%Y-%m-%dT%H:%M:%SZ") > datetime.now() - timedelta(minutes=int(offset)))), apiData))
                 self.logging.info("Api Data has been filtering for last " + str(offset) + " minutes")
 
