@@ -9,7 +9,7 @@ Github REST API call for regarding repo name
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-python3 -m venv
+python3 -m venv ./venv
 
 pip install requests
 
