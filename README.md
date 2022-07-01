@@ -1,4 +1,4 @@
-# Lely Interview for Firat Kalkan
+# Collecting specific event types for a given repo
 
 Github REST API call for regarding repo name
 + return avarage pull request time for repo
